@@ -2,6 +2,7 @@
 using tabuleiro;
 using xadrez;
 
+
 namespace xadrez_Csharp
 {
     class Program
@@ -19,9 +20,7 @@ namespace xadrez_Csharp
                     {
 
                         Console.Clear();
-                        Tela.imprimirTabuleiro(partida.tab);
-                        Console.WriteLine("Turno: " + partida.turno);
-                        Console.WriteLine("Aguardando jogada: " + partida.jogadorAtual);
+                        Tela.imprimirPartida(partida);
 
                         Console.WriteLine();
                         Console.Write("Origem: ");
